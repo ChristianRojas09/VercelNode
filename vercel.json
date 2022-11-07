@@ -4,6 +4,14 @@
         "src":"/",
         "dest":"api/users.js"
 
+        },
+        {
+            "src":"/users.js",
+            "method": [
+                "POST",
+                "GET"
+            ],
+            "dest": "/api/users.js"
         }
     ]
 }
