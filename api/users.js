@@ -7,7 +7,12 @@ module.exports = (req, res) => {
     //if loop to find request method. In this case it is 'get'
     if(req.method == 'GET') {
         res.json([ //the return response will be in a json format, so we use .json here
-            {name: "Christian", location: "Texas"}
+            {name: "Christian", location: "Texas"}, //test response
+            {name: "John", location: "Colorado"}
         ])
+    }
+
+    else {
+
     }
 }
